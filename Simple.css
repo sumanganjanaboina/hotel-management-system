@@ -1,0 +1,96 @@
+/* Add your CSS styling here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.register {
+    width: 45%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.register h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register label {
+    margin-bottom: 5px;
+}
+
+.register input,
+.register select {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.register input[type="date"] {
+    width: calc(100% - 18px);
+}
+
+.register input[type="number"],
+.register input[type="date"] {
+    width: calc(100% - 18px);
+}
+
+.register button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register button:hover {
+    background-color: #0056b3;
+}
+
+.submitted {
+    width: 45%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.submitted h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.submitted-list {
+    list-style: none;
+    padding: 0;
+}
+
+.submitted-booking-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.submitted-booking-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
